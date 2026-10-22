@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  /* size */
+  --website-horizontal-size: 900px;
+
+  /* colors */
+  --clr-site-backrgound: #fffcf5;
+  --clr-primary: black;
+  --clr-danger: #b23636;
+  --clr-background-one: #e3ded9;
+  --clr-grey-one: #333333;
+  --clr-grey-two: #4d4d4d;
+  --clr-grey-three: #808080;
+
+  --clr-button-text: white;
+
+  --clr-border-grey-one: #e6e6e6;
+  --clr-border-grey-two: #e5e5e5;
+
+  /* radius */
+  --corner-radius: 10px;
+}
+
+html,
+body {
+  background-color: rgb(233, 222, 214);
+}
+
+.styled-button {
+  padding: 0.5rem 1rem;
+  background-color: var(--clr-primary);
+  color: var(--clr-button-text);
+  font-weight: 600;
+  border-radius: var(--corner-radius);
+  cursor: pointer;
+}
