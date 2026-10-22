@@ -1,4 +1,4 @@
-import { Outlet, useSearchParams } from "react-router";
+import { useSearchParams } from "react-router";
 import Features from "./components/Features";
 import Results from "./components/Results";
 import SearchBar from "./components/SearchBar";
